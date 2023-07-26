@@ -1,0 +1,14 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Courier';
+    margin-top: 2.5%;
+}
+
+#content {
+    color: gray;
+    text-align: center;
+}
+
+#name {
+    color: black;
+}
