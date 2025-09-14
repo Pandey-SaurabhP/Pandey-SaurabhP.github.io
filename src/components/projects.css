@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.projects-container {
+    padding: 20px;
+}
+
+.project-card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-title {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+.project-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.project-description {
+    font-size: 12px;
+    margin-bottom: 3px;
+    text-align: left;
+}
+
+.project-screenshots {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.project-screenshots img {
+    width: auto;
+    max-height: 200px;
+    margin: 5px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.more-projects {
+    font-size: 15px;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}

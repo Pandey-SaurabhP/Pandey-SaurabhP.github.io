@@ -1,0 +1,206 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-main {
+    width: 95%;
+    display: inline-block;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.about-section {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.section-heading {
+    font-weight: 500;
+    font-size: 15px;
+    color: #005b95;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.section-icon {
+    margin-right: 8px;
+    font-size: 15px;
+    color: #58696d;
+}
+
+.bullet-point {
+    padding-bottom: 0px;
+}
+
+a {
+    margin-left: 3px;
+}
+
+.section-content {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.experience-list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Space between job entries */
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Space between logo and details */
+}
+
+.experience-logo {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.experience-details {
+    flex: 1;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.experience-role {
+    font-size: 14px;
+    color: #58696d; /* Adjust color */
+    margin-bottom: 0;
+}
+
+.experience-duration {
+    font-style: italic;
+    color: #005b95; /* Adjust color */
+}
+
+.experience-work {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.experience-work li {
+    margin-bottom: 2px; /* Space between bullet points */
+    line-height: 1.4;
+}
+.education-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-details div {
+    margin-bottom: 3px;
+}
+
+.achievements-list div{
+    margin-bottom: 3px;
+}
+
+.education-degree {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.education-duration {
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.education-institution {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.skills-list div {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.cp-container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cp-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.cp-box {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 47%;
+    border: 2px solid #005b95;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cp-logo {
+    height: 70%;
+    margin-left: 10px;
+}
+
+.cp-details {
+    margin-left: 12px;
+    color: black;
+    font-size: 10px;
+    display: inline;
+}
+
+.cp-details p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.cp-rating {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 12px;
+    height: 100%;
+}
+
+.rating-text {
+    font-size: 12px;
+}
+
+.rating-star {
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+    width: 25px;
+    height: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.rating-expert {
+    margin-left: 5px;
+    font-weight: bold;
+    color: blue;
+    font-size: 12px;
+}
+

@@ -1,0 +1,10 @@
+.text-box {
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005b95;
+    text-align: center;
+    font-size: 18px;
+}

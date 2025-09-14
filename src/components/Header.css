@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: #cfe3ec;
+}
+
+.header-image {
+    margin: 5%;
+    height: 60%;
+    border: 2px solid #005b95;
+    border-radius: 50%;
+}
+
+.header-details {
+    margin-top: 10%;
+    width: 75%;
+}
+
+.intro-text p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: -20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+    height: 40px;
+    margin-left: 34%;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    transition: transform 0.3s ease;
+}
+
+.social-link {
+    display: contents;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+}
