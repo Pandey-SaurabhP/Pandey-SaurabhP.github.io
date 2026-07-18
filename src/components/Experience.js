@@ -1,6 +1,7 @@
 import React from "react";
 import googleLogo from "../img/google.webp";
-import zomatoLogo from "../img/zomatoLogo.png";
+import zomatoLogo from "../img/ZomatoNewLogo.png";
+import eternalLogo from "../img/EternalLogo.png";
 import HeadingBar from "./HeadingBar";
 import "./about.css";
 
@@ -19,19 +20,58 @@ function Experience() {
                         <div className="experience-details">
                             <div className="experience-header">
                                 <div className="experience-role">
-                                    SDE Intern @ Zomato
+                                    SDE @ Zomato
                                 </div>
                                 <div className="experience-duration">
-                                    Oct 2025 - Present
+                                    Jun 2026 - Present
                                 </div>
                             </div>
                             <ul className="experience-work">
                                 <li>
                                     Working as part of the{" "}
-                                    <strong>Catalog team</strong> responsible
+                                    <strong>Zomato Catalog Team</strong> responsible
                                     for the menu experience of both merchants
                                     and consumers.
                                 </li>
+                                <li>
+                                    Built the menu backend for the{" "}
+                                        revamped Restaurant Partner App
+                                    , enabling end-to-end menu creation and
+                                    editing workflows (
+                                    <strong>5M+ Play Store downloads</strong>).
+                                </li>
+                                <li>
+                                    Optimized Zomato Search by
+                                    integrating an{" "}
+                                    <strong>SLM-powered</strong> search pipeline
+                                    , boosting dish tagging accuracy to more than <strong>99%</strong>.
+                                </li>
+                                {/* Built the backend for a new Zomato Now flow. Zomato Now allows instant orders from the inplace stores available at a firm. */}
+                                <li>
+                                    Built support for showing{" "}
+                                    dish tabs categorising the
+                                    suggestions list into types of dishes
+                                    (beverage, sides, desserts, etc.).
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="experience-item">
+                        <img
+                            src={eternalLogo}
+                            alt="Eternal Logo"
+                            className="experience-logo"
+                        />
+                        <div className="experience-details">
+                            <div className="experience-header">
+                                <div className="experience-role">
+                                    SDE Intern @ Eternal
+                                </div>
+                                <div className="experience-duration">
+                                    Oct 2025 - May 2026
+                                </div>
+                            </div>
+                            <ul className="experience-work">
                                 <li>
                                     Built an async{" "}
                                     <strong>super-resolution pipeline</strong>{" "}
