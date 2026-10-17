@@ -1,84 +1,33 @@
 .header-container {
-    text-align: left;
-    margin: -30px -30px 20px -30px;
-    padding: 30px;
-    background-color: #8b0000;
-    background-image: 
-        radial-gradient(circle at 10% 20%, rgba(165, 0, 0, 0.3) 15%, transparent 15.5%),
-        radial-gradient(circle at 80% 80%, rgba(100, 0, 0, 0.4) 25%, transparent 25.5%),
-        radial-gradient(circle at 40% 60%, rgba(120, 0, 0, 0.5) 10%, transparent 10.5%),
-        radial-gradient(circle at 90% 10%, rgba(140, 0, 0, 0.3) 30%, transparent 30.5%),
-        radial-gradient(circle at 50% 10%, rgba(160, 0, 0, 0.2) 20%, transparent 20.5%);
-    background-size: 150% 150%;
-    animation: randomBlobs 20s ease-in-out infinite;
-    color: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin: -30px -30px 24px;
+    padding: 36px 30px 30px;
+    background: #f6f4ee;
+    color: #242522;
+    border-bottom: 1px solid #d9d8cf;
 }
-
-@keyframes randomBlobs {
-    0% { background-position: 0% 0%; }
-    25% { background-position: 15% 75%; }
-    50% { background-position: 100% 30%; }
-    75% { background-position: 60% 100%; }
-    100% { background-position: 0% 0%; }
+.header-main-content { display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; align-items: center; }
+.header-text-content { min-width: 0; }
+.header-eyebrow { margin: 0 0 20px; font: 8px/1.7 ui-monospace, monospace; letter-spacing: 1.3px; color: #686a61; }
+.header-intro { font-size: clamp(44px, 8vw, 70px); line-height: .95; letter-spacing: -.075em; font-weight: 650; margin: 0 0 20px; }
+.header-intro em { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; color: #a92f39; }
+.header-description { font-size: 12px; line-height: 1.7; color: #686a61; margin: 0 0 20px; }
+.social-icons { display: flex; gap: 12px; }
+.contact-item { display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #d9d8cf; border-radius: 50%; color: #242522; text-decoration: none; font-size: 18px; }
+.contact-item:hover { color: #a92f39; border-color: #a92f39; }
+.header-photo-frame { background: #e7e5db; padding: 15px 12px 10px; transform: rotate(2deg); min-width: 0; }
+.header-image-new { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 48% 48% 3px 3px; filter: grayscale(100%); }
+.header-photo-frame span { display: block; margin-top: 10px; font: 7px/1.6 ui-monospace, monospace; letter-spacing: 1px; }
+@media (max-width: 480px) {
+    .header-main-content { gap: 16px; grid-template-columns: 1.15fr 1fr; }
+    .header-intro { font-size: 46px; }
+    .header-eyebrow { font-size: 7px; letter-spacing: .6px; margin-bottom: 15px; }
+    .header-photo-frame { padding: 10px 8px 8px; }
+    .header-photo-frame span { font-size: 6px; letter-spacing: .4px; }
+    .social-icons { gap: 5px; }
+    .contact-item { width: 44px; height: 44px; box-sizing: border-box; }
 }
-
-.header-main-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@media (max-width: 350px) {
+    .header-main-content { grid-template-columns: 1fr; }
+    .header-photo-frame { width: 65%; margin: 4px auto 0; }
+    .header-intro { font-size: 60px; }
 }
-
-.header-text-content {
-    flex: 1;
-}
-
-.header-intro {
-    font-size: 14px;
-    font-weight: 500;
-    color: #ffffff;
-    margin: 0 0 15px 0;
-    line-height: 1.5;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-}
-
-.social-icons {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    font-size: 22px;
-    color: #eeeeee;
-    white-space: nowrap;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    color: #ffffff;
-    background-color: rgba(255, 255, 255, 0.1);
-    text-decoration: none;
-}
-
-.social-icon {
-    margin-right: 0;
-}
-
-.header-image-new {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; /* fully circular */
-    border: 3px solid #ffffff; /* solid white border */
-    object-fit: cover;
-    margin-right: 30px;
-    filter: grayscale(10%); /* slightly reduced grayscale */
-}
-
-.header-divider {
-    display: none;
-}
-
-

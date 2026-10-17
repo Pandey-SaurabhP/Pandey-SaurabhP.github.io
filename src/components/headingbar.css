@@ -1,11 +1,14 @@
 .text-box {
-    font-weight: bold;
-    font-size: 15px;
-    color: #8b0000;
-    text-transform: uppercase;
-    margin-top: 25px;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #8b0000;
-    padding-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 1.2;
+    color: #a92f39;
+    text-transform: none;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #d9d8cf;
+    padding-bottom: 10px;
     text-align: left;
 }

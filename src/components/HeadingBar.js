@@ -4,7 +4,7 @@ import './headingbar.css';
 function HeadingBar(props) {
     return (
         <>
-            <div className="text-box">{props.text}</div>
+            <h2 className="text-box">{props.text.toLowerCase().replace(/\b\w/g, char => char.toUpperCase())}</h2>
         </>
     );
 }
