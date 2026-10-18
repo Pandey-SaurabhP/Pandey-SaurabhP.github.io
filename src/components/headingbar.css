@@ -1,14 +1,14 @@
 .text-box {
     font-family: Georgia, 'Times New Roman', serif;
     font-weight: 400;
-    font-style: italic;
-    font-size: 27px;
+    /* font-style: italic; */
+    font-size: 20px;
     line-height: 1.2;
     color: #a92f39;
     text-transform: none;
-    margin-top: 30px;
-    margin-bottom: 18px;
+    margin-top: 8px;
+    margin-bottom: 12px;
     border-bottom: 1px solid #d9d8cf;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     text-align: left;
 }

@@ -8,9 +8,8 @@ export default function Header() {
         <header className="header-container">
             <div className="header-main-content">
                 <div className="header-text-content">
-                    <p className="header-eyebrow">SOFTWARE ENGINEER · PROBLEM SOLVER</p>
                     <h1 className="header-intro">Saurabh<br /><em>Pandey.</em></h1>
-                    <p className="header-description">Building thoughtful software.<br />Driven by curiosity and impact.</p>
+                    <p className="header-description">Building thoughtful software.</p>
                     <div className="social-icons">
                         <a href="mailto:saurabhpandey59373@gmail.com" className="social-link contact-item" aria-label="Email" title="Email"><FaEnvelope /></a>
                         <a href="https://www.linkedin.com/in/pandey-saurabh/" className="social-link contact-item" aria-label="LinkedIn" title="LinkedIn"><FaLinkedin /></a>
